@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/ctran/annotate_models.git
+  revision: 032565653b98e0790ddd8a070579566eb60a850c
+  specs:
+    annotate (2.4.1.beta1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -149,6 +155,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate!
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
   guard-rspec (= 0.5.5)
