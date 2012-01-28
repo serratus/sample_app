@@ -1,1 +1,13 @@
-<%=  @user.name %>, <%= @user.email%>
+<% provide(:title, @user.name) %>
+
+<div class="sidebar round">
+	<span class="key">Name:</span><%= @user.name %><br />
+	<span class="key">URL:</span><%= link_to user_path(@user), @user %>
+</div>
+
+<h1>
+	<%= gravatar_for @user %>
+	<%=  @user.name %>
+</h1>
+
+

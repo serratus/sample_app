@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.0'
 gem 'pg', '0.12.2'
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -35,6 +36,7 @@ group :test do
   gem 'rb-fchange', '0.0.5'
   gem 'rb-notifu', '0.0.4'
   gem 'win32console', '1.3.0'
+  gem 'factory_girl_rails'
 end
 
 group :production do
